@@ -23,15 +23,45 @@ A simple **Product Recommendation System** web app built with **Streamlit** that
    cd product_recommendation
 
 2. Create and activate a virtual environment:
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # Linux/macOS
+   .\venv\Scripts\activate   # Windows
+3. Install dependencies
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-  ```bash
-  python3 -m venv venv
-  source venv/bin/activate  # Linux/macOS
-  .\venv\Scripts\activate   # Windows
+#Usage
 
- 3. Install dependencies:
-  ```bash
-  pip install -r requirements.txt
+1. Run the Streamlit app locally:
 
+```bash
+streamlit run app.py
+```
+#Data Source
+The product data is loaded dynamically from a CSV file hosted on Google Drive. You can update the data by replacing the CSV and updating the file ID in main.py.
+
+#Technologies Used
+Python 3
+
+Streamlit
+
+pandas
+
+scikit-learn (TF-IDF and cosine similarity)
+
+Google Drive (for dataset hosting)
+
+#Contributing
+Feel free to open issues or submit pull requests to improve the app.
+
+
+
+
+
+  
+
+   
 
 
