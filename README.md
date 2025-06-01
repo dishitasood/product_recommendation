@@ -32,18 +32,18 @@ A simple **Product Recommendation System** web app built with **Streamlit** that
    pip install -r requirements.txt
    ```
 
-##Usage
+## Usage
 
 1. Run the Streamlit app locally:
 
 ```bash
 streamlit run app.py
 ```
-##Data Source
+## Data Source
 
 The product data is loaded dynamically from a CSV file hosted on Google Drive. You can update the data by replacing the CSV and updating the file ID in main.py.
 
-##Technologies Used
+## Technologies Used
 Python 3
 
 Streamlit
@@ -54,7 +54,7 @@ scikit-learn (TF-IDF and cosine similarity)
 
 Google Drive (for dataset hosting)
 
-##Contributing
+## Contributing
 Feel free to open issues or submit pull requests to improve the app.
 
 
