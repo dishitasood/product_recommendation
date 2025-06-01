@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_excel('Online Retail.xlsx')
+df = pd.read_csv('Online Retail.xlsx')
 
 df = df[~df['InvoiceNo'].astype(str).str.startswith('C')]
 
