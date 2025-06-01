@@ -1,5 +1,6 @@
 import pandas as pd
-url = 'https://drive.google.com/file/d/1Pmo2YBIeaKcFe_OXuqeGfb-zwvoBkdOp/view?usp=sharing'
+
+url = 'https://drive.google.com/uc?id=1Pmo2YBIeaKcFe_OXuqeGfb-zwvoBkdOp'
 df = pd.read_csv(url)
 
 df = df[~df['InvoiceNo'].astype(str).str.startswith('C')]
